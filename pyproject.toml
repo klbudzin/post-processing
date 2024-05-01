@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "postprocessing"
+version = "0.0.1"
+authors = [
+    {name = "Matt McGurn"},
+    {name = "Kenneth Budzinski", email="klbudzin@buffalo.edu"},
+    {name = "Kolos Retfalvi"}]
+description = "Post Processing of Ablate simulations and Experimental Data"
+readme = "README.md"
+dependencies = [
+    "h5py",
+    "numpy",
+    "scipy"]
+
+
